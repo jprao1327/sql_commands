@@ -1,0 +1,30 @@
+CREATE TABLE Employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    city VARCHAR(255),
+    salary DECIMAL(10, 2)
+);
+--------------------------------
+INSERT INTO Employee (id, name, age, city, salary)
+VALUES
+    (1, 'John Doe', 30, 'New York', 75000.00),
+    (2, 'Jane Smith', 28, 'Los Angeles', 80000.00),
+    (3, 'Michael Johnson', 35, 'Chicago', 70000.00),
+    (4, 'Emily Brown', 25, 'Houston', 65000.00),
+    (5, 'William Lee', 32, 'San Francisco', 90000.00),
+    (6, 'Olivia Wilson', 27, 'Seattle', 72000.00),
+    (7, 'James Taylor', 29, 'Boston', 78000.00),
+    (8, 'Sophia Anderson', 31, 'Miami', 71000.00),
+    (9, 'Daniel Martinez', 33, 'Denver', 85000.00),
+    (10, 'Isabella Davis', 26, 'Atlanta', 68000.00),
+    (11, 'Alexander Rodriguez', 34, 'Dallas', 92000.00),
+    (12, 'Mia Hernandez', 28, 'Phoenix', 70000.00),
+    (13, 'Ethan Moore', 30, 'Philadelphia', 76000.00),
+    (14, 'Ava Garcia', 29, 'Detroit', 73000.00),
+    (15, 'Benjamin Lewis', 31, 'Minneapolis', 88000.00),
+    (16, 'Charlotte Hall', 27, 'Portland', 74000.00),
+    (17, 'Henry Adams', 32, 'Las Vegas', 91000.00),
+    (18, 'Amelia Turner', 28, 'San Diego', 69000.00),
+    (19, 'David White', 30, 'Austin', 77000.00),
+    (20, 'Ella Clark', 29, 'Nashville', 75000.00);
